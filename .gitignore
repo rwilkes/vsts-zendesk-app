@@ -1,3 +1,9 @@
 *.zip
 debug.log
 .editorconfig
+v1/
+dist/assets
+dist/translations
+node_modules/
+doc/
+
