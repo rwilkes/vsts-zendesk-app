@@ -85,12 +85,12 @@ module.exports = {
       vendorCss: externalAssets.css,
       vendorJs: externalAssets.js,
       template: "!!handlebars-loader!./lib/templates/layout.hdbs"
-    }),
+    })/*,
     new webpack.optimize.UglifyJsPlugin({
       compress: {
         drop_debugger: false,
         warnings: false
       }
-    })
+    })*/
   ]
 };
